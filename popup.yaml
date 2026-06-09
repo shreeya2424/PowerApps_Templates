@@ -1,0 +1,96 @@
+- cnt_Popup:
+    Control: GroupContainer@1.5.0
+    Variant: AutoLayout
+    Properties:
+      Fill: =RGBA(0,0,0,0.35)
+      Height: =Parent.Height
+      LayoutAlignItems: =LayoutAlignItems.Center
+      LayoutDirection: =LayoutDirection.Vertical
+      LayoutJustifyContent: =LayoutJustifyContent.Center
+      PaddingBottom: =8
+      PaddingLeft: =8
+      PaddingRight: =8
+      PaddingTop: =8
+      Width: =Parent.Width
+    Children:
+      - cntPopupContent:
+          Control: GroupContainer@1.5.0
+          Variant: AutoLayout
+          Properties:
+            AlignInContainer: =AlignInContainer.Center
+            Fill: =RGBA(255,255,255, 1)
+            FillPortions: =0
+            Height: =500
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =16
+            LayoutMinWidth: =16
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: |
+              =700
+          Children:
+            - cntBackBtn:
+                Control: GroupContainer@1.5.0
+                Variant: AutoLayout
+                Properties:
+                  FillPortions: =0
+                  Height: =55
+                  LayoutAlignItems: =LayoutAlignItems.Center
+                  LayoutDirection: =LayoutDirection.Horizontal
+                  LayoutJustifyContent: =LayoutJustifyContent.End
+                  LayoutMinHeight: =16
+                  LayoutMinWidth: =16
+                  PaddingBottom: =8
+                  PaddingLeft: =15
+                  PaddingRight: =8
+                  PaddingTop: =8
+                Children:
+                  - btnBack:
+                      Control: ModernButton@1.0.0
+                      Properties:
+                        BasePaletteColor: =RGBA(189, 178, 176, 1)
+                        Icon: ="Dismiss"
+                        LayoutMinHeight: =16
+                        LayoutMinWidth: =16
+                        Text: =
+                        Width: =50
+            - cntMainContent:
+                Control: GroupContainer@1.5.0
+                Variant: AutoLayout
+                Properties:
+                  DropShadow: =DropShadow.None
+                  LayoutAlignItems: =LayoutAlignItems.Center
+                  LayoutDirection: =LayoutDirection.Vertical
+                  LayoutMinHeight: =16
+                  LayoutMinWidth: =16
+                  PaddingBottom: =8
+                  PaddingLeft: =8
+                  PaddingRight: =8
+                  PaddingTop: =8
+            - cntOK:
+                Control: GroupContainer@1.5.0
+                Variant: AutoLayout
+                Properties:
+                  FillPortions: =0
+                  Height: =55
+                  LayoutAlignItems: =LayoutAlignItems.Center
+                  LayoutDirection: =LayoutDirection.Horizontal
+                  LayoutJustifyContent: =LayoutJustifyContent.End
+                  LayoutMinHeight: =16
+                  LayoutMinWidth: =16
+                  PaddingBottom: =8
+                  PaddingLeft: =8
+                  PaddingRight: =8
+                  PaddingTop: =8
+                Children:
+                  - btnOK:
+                      Control: ModernButton@1.0.0
+                      Properties:
+                        BasePaletteColor: =RGBA(189, 178, 176, 1)
+                        Icon: ="Checkmark"
+                        LayoutMinHeight: =16
+                        LayoutMinWidth: =16
+                        Text: ="OK"
