@@ -15,4 +15,12 @@ posting powerapps templates i build for yall to use
   
 <img width="642" height="282" alt="image" src="https://github.com/user-attachments/assets/55e599f8-ba4f-4912-a10a-504929f9bc1b" />
 
+***
+
+* **Tabs template**
+  [Get Code here](https://github.com/shreeya2424/PowerApps_Templates/blob/main/popup.yaml)
+
+  
+<img width="642" height="282" alt="image" src="https://github.com/user-attachments/assets/aaf12241-8525-49e1-bca0-2d17a316e102" />
+
 
