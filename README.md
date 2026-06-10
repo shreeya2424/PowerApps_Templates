@@ -17,8 +17,10 @@ posting powerapps templates i build for yall to use
 
 ***
 
-* **Tabs template**
+* **Popup template**
   [Get Code here](https://github.com/shreeya2424/PowerApps_Templates/blob/main/popup.yaml)
+  <br>
+  Note: Update the 'Visible' property of the container 'cnt_Popup' as you need.
 
   
 <img width="642" height="282" alt="image" src="https://github.com/user-attachments/assets/aaf12241-8525-49e1-bca0-2d17a316e102" />
